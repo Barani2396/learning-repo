@@ -3,10 +3,10 @@
 
 function celsius_fahrenheit_converter(temp, cf) {
     if (cf == "C") {
-        c = (5 * (temp - 32)) / 9;
+        var c = (5 * (temp - 32)) / 9;
         console.log("The Fahrenheit to celcius conversion is " + c);
     } else if (cf == "F") {
-        f = (temp * 9 / 5) + 32;
+        var f = (temp * 9 / 5) + 32;
         console.log("The celcius to Fahrenheit conversion is " + f);
     } else {
         console.log("Please give any two of the literals 'C/F' as arguments to do the conversion");

@@ -6,7 +6,7 @@ function factorial(val) {
         return 1;
     } else {
         var t = 1;
-        for (i = 1; i < val; i++) {
+        for (var i = 1; i < val; i++) {
             t = (val - i) * t;
         }
         val = val * t;

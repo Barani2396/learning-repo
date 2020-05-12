@@ -6,5 +6,4 @@ function convert_to_coins(amt) {
     if (amt <= 5) {
         amt
     }
-
 }
