@@ -4,5 +4,11 @@ You can, of course, do it using a loop, but see how short your code can be if yo
 var arr = ["Barani", "Deepak", "Kolangi"];
 
 function largest_string(arr) {
-    return 0;
+    return arr.reduce(function(prev, curr) {
+        if (curr.lenght > prev.length) {
+            return curr;
+        } else {
+            return prev;
+        }
+    }, "");
 }
