@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>NY Slides</title>
+    <script>
+        var pics = ["https://images.unsplash.com/photo-1511745235279-2f7276d5ba65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1944&q=80", "https://images.unsplash.com/photo-1481811036917-05b4b9f27bf0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1947&q=80", "https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"];
+        var count = 0;
+
+        function load() {
+            imgChanger(0);
+            document.getElementById("b1").addEventListener("click", changeBackground); // mouse click event
+        }
+
+        function imgChanger(i) {
+            document.getElementById("image_canvas").getElementsByTagName("img")[0].src = pics[i % pics.length];
+            setTimeout(function() {
+                imgChanger(i + 1);
+            }, 5000);
+        }
+
+        function changeBackground(event) {
+            if (document.body.style.backgroundColor == "snow") {
+                document.body.style.backgroundColor = "grey";
+            } else {
+                document.body.style.backgroundColor = "snow";
+            }
+            console.log(event.target); // event property that stores html element which has triggered the click event
+            console.log(event); // mouse click event property will be printed
+            event.stopPropagation();
+        }
+
+        window.addEventListener("load", load);
+        // First args, "load" is the type of event
+        // Seconds args, load is a call bach function passed when "load" event happens
+
+        window.addEventListener("click", function() {
+            console.log("Clicked on the page,");
+            console.log("I was executed because a click event was triggered and it wasn't properly stopped.");
+            console.log("So pls use event.stopPropagation() methods whereever required.");
+        });
+    </script>
+</head>
+
+<body style="text-align: center;background-color:snow">
+    <h1 id="h1">NY</h1>
+    <div id="image_canvas" style="width: 1000px; height: 650px;margin: 0 auto">
+        <img style="height: 100%; width: 100%">
+    </div>
+    <br>
+    <br>
+    <button id="b1">Click me!</button>
+</body>
+
+</html>
