@@ -292,7 +292,42 @@ function imgChanger(i) {
 
 window.addEventListener("load", load);
 
-// Link the above script to a html file to check image canvas functionality
+// Try the below html file 
+
+/*
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>NY Slides</title>
+    <script>
+        var pics = ["https://images.unsplash.com/photo-1511745235279-2f7276d5ba65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1944&q=80", "https://images.unsplash.com/photo-1481811036917-05b4b9f27bf0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1947&q=80", "https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"];
+        var count = 0;
+
+        function load() {
+            imgChanger(0);
+        }
+
+        function imgChanger(i) {
+            document.getElementById("image_canvas").getElementsByTagName("img")[0].src = pics[i % pics.length];
+            setInterval(function() {
+                imgChanger(i + 1);
+            }, 5000);
+        }
+
+        window.addEventListener("load", load);
+    </script>
+</head>
+
+<body style="text-align: center;background-color:snow">
+    <h1 id="h1">NY</h1>
+    <div id="image_canvas" style="width: 1000px; height: 650px;margin: 0 auto">
+        <img style="height: 100%; width: 100%">
+    </div>
+</body>
+
+</html>
+*/
 
 /* Q2. The DOM API offers many methods to create new DOM elements. In the browser console, 
 type in document.body.innerHTML = "<input type="text">"; and see a textbox appear on the page. 
@@ -300,3 +335,81 @@ The API offers some other interesting methods like appendChild, insertBefore etc
 we use a JS library(like JQuery etc.) to do the DOM manipulation because of incompatibility of 
 the DOM API among the major browsers. Still, you may want to play around with some of the methods 
 to get a feel. */
+
+function add_items() {
+    if (document.getElementById("items").value == "") {
+        alert("Please enter atleast single char");
+    } else {
+        var new_item = document.createTextNode(document.getElementById("items").value);
+        var new_list = document.createElement("li");
+        new_list.appendChild(new_item);
+        var list = document.getElementById("ulists");
+        list.insertBefore(new_list, list.childNodes[0]);
+        document.getElementById("items").value = "";
+    }
+}
+
+function clear_lists() {
+    document.getElementById("ulists").innerHTML = "";
+}
+
+// Try the below html file 
+
+/*
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .parent {
+            text-align: center;
+        }
+        
+        .parent>ul {
+            display: inline-block;
+        }
+    </style>
+    <title>DOM manipulation</title>
+</head>
+
+<body style="text-align: center;">
+    <h1>DOM manipulation with JS Objects</h1>
+    <br>
+    <div class="parent">
+        <h2>Grocery Lists</h2>
+        <ul id="ulists">
+        </ul>
+    </div>
+    <br>
+    <input id="items" type="text" />
+    <br>
+    <br>
+    <button onclick="add_items()">Add Items</button>
+    <button onclick="clear_lists()">Clear Lists</button>
+</body>
+
+<script>
+    function add_items() {
+        if (document.getElementById("items").value == "") {
+            alert("Please enter atleast single char");
+        } else {
+            var new_item = document.createTextNode(document.getElementById("items").value);
+            var new_list = document.createElement("li");
+            new_list.appendChild(new_item);
+            var list = document.getElementById("ulists");
+            list.insertBefore(new_list, list.childNodes[0]);
+            document.getElementById("items").value = "";
+        }
+    }
+
+    function clear_lists() {
+        document.getElementById("ulists").innerHTML = "";
+    }
+</script>
+
+</html>
+*/
+
+/* Q3. In the slideshow example that we did during the lectures, make changes to be 
+able to add the fadeIn transition effect. That is, instead of the pictures changing 
+suddenly, let them slowly faded on over a period of 1 second or so. */

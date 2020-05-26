@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .parent {
+            text-align: center;
+        }
+        
+        .parent>ul {
+            display: inline-block;
+        }
+    </style>
+    <title>DOM manipulation</title>
+</head>
+
+<body style="text-align: center;">
+    <h1>DOM manipulation with JS Objects</h1>
+    <br>
+    <div class="parent">
+        <h2>Grocery Lists</h2>
+        <ul id="ulists">
+        </ul>
+    </div>
+    <br>
+    <input id="items" type="text" />
+    <br>
+    <br>
+    <button onclick="add_items()">Add Items</button>
+    <button onclick="clear_lists()">Clear Lists</button>
+</body>
+
+<script>
+    function add_items() {
+        if (document.getElementById("items").value == "") {
+            alert("Please enter atleast single char");
+        } else {
+            var new_item = document.createTextNode(document.getElementById("items").value);
+            var new_list = document.createElement("li");
+            new_list.appendChild(new_item);
+            var list = document.getElementById("ulists");
+            list.insertBefore(new_list, list.childNodes[0]);
+            document.getElementById("items").value = "";
+        }
+    }
+
+    function clear_lists() {
+        document.getElementById("ulists").innerHTML = "";
+    }
+</script>
+
+</html>
