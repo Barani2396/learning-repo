@@ -5,89 +5,103 @@
 /* Q1. Write a javascript function named is_integer which checks if the passed argument is an integer. 
 You can use any mathematical operator or functions defined in the Math object. */
 
-function is_interger(a) {
-    if (typeof(a) === Number) {
-        return "This is a number";
+function is_integer(num) {
+    if (num == Math.floor(num)) {
+        console.log(num + " is a integer");
     } else {
-        return "This is a " + typeof(a);
+        console.log(num + " isn't a integer");
     }
 }
 
-// i/o
+// test cases
 
-is_interger(2);
-is_interger("2");
+is_integer(-5);
+is_integer(-5.5);
+is_integer(5);
+is_integer(5.5);
 
 /* Q2. Using the forEach function defined for an array, find the sum of the array of numbers. [function add_all(arr) {...}] */
 
 function add_all(arr) {
-    arr.forEach(iterate);
-    alert("The sum of array is " + sum);
-    sum = 0;
+    let sum = 0;
+    arr.forEach(ele => { sum = ele + sum; });
+    return sum;
 }
 
-function iterate(item) {
-    console.log(item, sum);
-    sum = item + sum;
-}
+// test cases
 
-// i/o
-
-var arr = [1, 2, 2];
-var sum = 0;
-add_all(arr);
+add_all([1, 2, 3])
+add_all([2, 5, 3])
 
 /* Q3. Write a JavaScript program to convert temperatures to and from celsius, fahrenheit. 
 [ Use the formula : c = 5*(f-32)/9, where c = temperature in celsius and f = temperature in fahrenheit] */
 
-function celsius_fahrenheit_converter(temp, mode) {
-    if (mode == "C") {
-        var c = (5 * (temp - 32)) / 9;
-        console.log("The Fahrenheit to celcius conversion is " + c);
-    } else if (mode == "F") {
-        var f = (temp * 9 / 5) + 32;
-        console.log("The celcius to Fahrenheit conversion is " + f);
+function temperatureConverter(mode, temp) {
+    if (mode == 'C' || mode == 'c') {
+        temp = ((temp * 9) / 5) + 32
+        return 'Fahrenheit: ' + temp;
+    } else if (mode == 'F' || mode == 'f') {
+        temp = ((temp - 32) * 5) / 9;
+        return 'Celsius: ' + temp;
     } else {
-        console.log("Please give any two of the literals 'C/F' as arguments to do the conversion");
+        console.log('Please, select either "F/f" or "C/c" of these modes to perform the conversion!');
     }
 }
 
-// i/o
+// test cases
 
-celsius_fahrenheit_converter(0, "F");
-celsius_fahrenheit_converter(32, "C");
+temperatureConverter('C', 0);
+temperatureConverter('F', 32);
 
 /* Q4. Write a factorial function that returns the factorial of a given number, n. 
 Make sure you return the calculated value and not just print it. [function factorial(n){...}] */
 
 function factorial(val) {
+    let t = 1;
     if (val == 0) {
         return 1;
-    } else {
-        var t = 1;
+    } else if (typeof(val) == "number") {
         for (var i = 1; i < val; i++) {
             t = (val - i) * t;
         }
         val = val * t;
         return val;
+    } else {
+        return 'Please pass numbers to perform factorial';
     }
 }
 
-// i/o
+// test cases
 
 factorial(1);
+factorial(9);
 
 /* Q5. Write a javascript function that converts a given amount of money into coins of denominations (1, 2, 5, 10 and 25). 
 [function convert_to_coins(amount) {...}]. 
 You may choose to print the coin denominations used on the console. E.g. convert_to_coins(87) should print 25 25 25 10 2. */
 
-function convert_to_coins(amt) {
-    if (amt <= 5) {
-        amt
+function convert_to_coins(amount, abs_coins) {
+    if (abs_coins == undefined) {
+        let coins = [25, 10, 5, 2, 1];
+        abs_coins = coins;
+    }
+    if (amount === 0) {
+        return [];
+    } else {
+        if (amount >= abs_coins[0]) {
+            left = (amount - abs_coins[0]);
+            return [abs_coins[0]].concat(convert_to_coins(left, abs_coins));
+        } else {
+            abs_coins.shift();
+            return convert_to_coins(amount, abs_coins);
+        }
     }
 }
 
-// i/o
+// test cases
+
+convert_to_coins(87);
+convert_to_coins(8);
 
 // Assignment 2
 
