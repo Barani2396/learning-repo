@@ -1,7 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: medium;
+  margin: 0;
+  padding: 0;
 }
 
 header,
@@ -10,6 +16,20 @@ footer {
   text-align: center;
   color: orange;
   background-color: black;
+  padding: 1.5px;
+}
+
+footer a {
+  color: yellow;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: orange;
+}
+
+h1 > span {
+  display: block;
 }
 
 h2 {
@@ -25,18 +45,18 @@ h3 {
   font-weight: 800;
 }
 
-p > b {
-  color: brown;
-}
-
-a {
-  color: red;
-}
-
 #section1,
 #section2,
 #section3 {
   font-size: 18px;
+}
+
+ul > li {
+  margin-bottom: 10px;
+}
+
+p > b {
+  color: brown;
 }
 
 p > a:link,
@@ -52,6 +72,8 @@ div > ul > li,
 ul a {
   list-style: none;
   text-decoration: none;
+  margin-bottom: 3px;
+  width: 350px;
 }
 
 ul a:link,
@@ -60,8 +82,6 @@ ul a:visited {
   color: orange;
   background-color: black;
   display: block;
-  width: 350px;
-  margin-bottom: 3px;
 }
 
 ul a:hover,
@@ -70,11 +90,79 @@ ul a:active {
   color: black;
 }
 
-footer a {
-  color: yellow;
-  text-decoration: none;
+#box1 {
+  background-color: chocolate;
+  text-align: center;
+  width: 500px;
+  margin: 10px;
+  padding: 25px;
+  border: 5px solid cornflowerblue;
+  box-sizing: border-box;
 }
 
-footer a:hover {
-  color: orange;
+#box2 {
+  background-color: cornflowerblue;
+  text-align: center;
+  width: 500px;
+  margin: 10px;
+  padding: 25px;
+  border: 5px solid chocolate;
+  box-sizing: content-box;
+}
+
+@media (min-width: 150px) and (max-width: 700px) {
+  ul a {
+    width: 50%;
+  }
+  #box1 {
+    width: 50%;
+  }
+  #box2 {
+    width: 50%;
+  }
+}
+
+#fpara > p {
+  width: 50%;
+  float: left;
+}
+
+#retNormalFlow {
+  clear: left;
+}
+
+#positioning {
+  width: 50%;
+  height: 25%;
+  background-color: greenyellow;
+  position: relative;
+}
+
+.box {
+  width: fit-content;
+  border: dashed;
+  padding: 3px;
+}
+
+.b1 {
+  background-color: red;
+  position: absolute;
+  left: 10%;
+  top: 4%;
+}
+
+.b2 {
+  background-color: seagreen;
+}
+
+.b3 {
+  background-color: royalblue;
+  position: relative;
+  left: 25%;
+}
+
+@media (max-width: 450px) {
+  #positioning {
+    width: 75%;
+  }
 }
