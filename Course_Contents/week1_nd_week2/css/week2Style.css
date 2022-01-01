@@ -59,15 +59,6 @@ p > b {
   color: brown;
 }
 
-p > a:link,
-p > a:visited {
-  color: blue;
-}
-
-p > a:hover {
-  color: red;
-}
-
 div > ul > li,
 ul a {
   list-style: none;
@@ -88,6 +79,19 @@ ul a:hover,
 ul a:active {
   background-color: orange;
   color: black;
+}
+
+.hLink {
+  text-decoration: none;
+}
+
+.hLink:link,
+.hLink:visited {
+  color: blue;
+}
+
+.hLink:hover {
+  color: red;
 }
 
 #box1 {
@@ -206,4 +210,8 @@ ul a:active {
   .col-md-6 {
     width: 50%;
   }
+}
+
+#section5 {
+  clear: left;
 }
