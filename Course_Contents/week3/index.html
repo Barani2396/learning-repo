@@ -12,22 +12,25 @@
       crossorigin="anonymous"
     />
     <link href="css/style.css" rel="stylesheet" />
+    <!-- Fonts only -->
+    <link href="http://fonts.cdnfonts.com/css/crack-style" rel="stylesheet" />
+    <link href="http://fonts.cdnfonts.com/css/fauna-one" rel="stylesheet" />
   </head>
   <body>
     <header>
-      <nav id="header-nav" class="navbar navbar-light navbar-expand-lg">
+      <nav id="header-nav" class="navbar navbar-light navbar-expand-lg mt-3">
         <div class="container">
           <a class="navbar-brand" href="index.html">
             <img
               class="d-none d-md-inline-block"
-              src="assets/logo.png"
+              src="images/logo.png"
               id="logo-img"
               alt="Logo image"
             />
             <h1 class="d-md-inline-block align-text-top">Steak House</h1>
           </a>
           <button
-            class="navbar-toggler custom-toggler"
+            class="navbar-toggler custom-toggler mb-3 mt-md-3"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -39,8 +42,8 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul
-              id="nav-list"
-              class="navbar-nav ms-auto mb-lg-0 ps-md-4 ps-sm-2"
+              id="list-nav"
+              class="navbar-nav ms-auto mb-lg-0 ps-md-4 ps-sm-2 mt-3"
             >
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="index.html"
@@ -64,6 +67,36 @@
         </div>
       </nav>
     </header>
+    <div id="main-content" class="container-fluid">
+      <div class="banner-img">
+        <div class="container pt-5">
+          <h2>Welcome</h2>
+          <h3>Loves Healthy Foods</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptas culpa libero eius amet suscipit! Ea, tenetur doloribus
+            minus ipsum, consequatur expedita nihil exercitationem adipisci quam
+            possimus quia nemo culpa.
+          </p>
+          <a id="phone" class="btn btn btn-sm" href="tel:XXX-XXX-XXXX">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-telephone-outbound-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
+            Call to order
+          </a>
+        </div>
+      </div>
+    </div>
 
     <!-- JavaScript only -->
     <script
