@@ -1,0 +1,345 @@
+/** Common **/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Fauna One', sans-serif;
+  font-size: 16px;
+  background-color: #dedede;
+}
+
+a { /* Navigation  a element under list */
+  color: #262626 !important;
+  text-decoration: none;
+}
+a:hover {
+  color: #e54d2a !important;
+}
+
+.active {
+  color: #e54d2a !important;
+}
+/** End Common **/
+
+/** Header **/
+#header-nav {
+  font-family: "Crack Style", sans-serif; 
+}
+
+#header-logo-img { /* Logo */
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.navbar-brand h1 { /* Brand name */
+  color: #e54d2a;
+  font-size: calc(34px + 1vw);
+  padding-top: 0.25em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px#222;
+  letter-spacing: 3px;
+}
+
+#list-nav li { /* Navigation  list element */
+  font-size: calc(20px + 0.45vw);
+  color: #262626;
+}
+
+.bullet-nav { /* HTML dot character */
+  margin: auto 5px auto 5px;
+}
+
+.custom-toggler .navbar-toggler-icon { /* Toggle icon */
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(229,76,42, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/** End Header **/
+
+/** Footer **/
+.panel-footer {
+  font-size: 14px;
+  background-color: #101010;
+  opacity: .9;
+  color: white;
+}
+
+#copyright { /* Footer copyright */
+  background-color: rgb(26,26,26);
+}
+
+#copyright > span {
+  opacity: 0.75;
+}
+
+#copyright > span > span {
+  position: relative;
+  top: 0.2em;
+}
+
+#copyright a {
+  font-weight: bold;
+  color: #e54d2a !important;
+}
+#copyright a:hover {
+  opacity: 0.8;
+}
+/** End Footer **/
+
+/** Home page **/
+.container-fluid .banner-img { /* Banner image */
+  margin-left: -0.75em;
+  margin-right: -0.75em;
+  color: white;
+}
+
+.banner-img { /* Banner image */
+  background: url("../images/banner_560.jpg") no-repeat;
+  background-size: 100% !important;
+}
+
+.banner-img div h2 { /* Banner heading3*/
+  font-size: calc(28px + 1.2vw);
+}
+
+.banner-img div h3 { /* Banner heading3*/
+  font-size: calc(30px + 1vw);
+  text-transform: uppercase;
+  font-weight: bolder;
+  
+}
+
+.banner-img div p { /* Banner para*/
+  font-size: calc(12px + 0.75vw);
+}
+
+.banner-img div a { /* Banner phone */
+  padding: 0.01rem 0.25rem;
+  font-size: 1.5em;
+}
+
+#menu-tile, #special-tile, #map-tile { /* Home tiles */
+  width: 100%;
+  height: 250px;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+#menu-tile:hover , #special-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px;
+  color: #e54d2a;
+}
+
+#home-tiles span { /* Menu tile */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: "Crack Style", sans-serif;
+  font-size: 1.25em;
+  font-weight: 800;
+  letter-spacing: 3px;
+  background-color: #101010;
+  text-transform: uppercase;
+  opacity: .8;
+}
+
+#menu-tile { /* Menu tile */
+  background: url("../images/menu-tile.jpg") no-repeat;
+  background-position: center;
+}
+#special-tile { /* Special tile */
+  background: url("../images/special-tile.jpg") no-repeat;
+  background-position: center;
+}
+/** End Home page **/
+
+/** Menu categories page **/
+.category-tile { /* Category tile */
+  width: 200px;
+  height: 200px;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px;
+  color: #e54d2a;
+}
+
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: "Crack Style", sans-serif;
+  font-size: 1.25em;
+  font-weight: 800;
+  letter-spacing: 3px;
+  background-color: #101010;
+  text-transform: uppercase;
+  opacity: .8;
+}
+/** End Menu categories page **/
+
+/** Single categories page **/
+.menu-item-tile .menu-item-price { /* Item price */
+  font-size: 1.1em;
+}
+
+.menu-item-tile .menu-item-price span { /* Item price units */
+  font-size: 0.6em;
+}
+
+.menu-item-photo { /* Item image container */
+  position: relative;
+  border: 2px solid #101010;
+  padding: 0;
+  max-width: 250px;
+  height: min-content;
+  overflow: hidden;
+}
+
+.menu-item-photo div { /* Item id */
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #e54d2a;
+  text-align: center;
+}
+
+.menu-item-tile hr {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/** End Single categories page **/
+
+
+
+/*** Extra extra large devices (xxl) ***/
+@media (min-width: 1400px) {
+  /** Home page **/
+  .banner-img { /* Banner image */
+    background: url("../images/banner_2560.jpg") no-repeat;
+  }
+
+  .banner-img div a { /* Banner phone */
+    font-size: 2em;
+  }
+
+}
+
+/*** Extra large devices (xl) ***/
+@media (min-width: 1200px) and (max-width: 1399px) {
+  /** Home page **/
+  .banner-img { /* Banner image */
+    background: url("../images/banner_2560.jpg") no-repeat;
+  }
+
+}
+
+/*** Large devices (lg) ***/
+@media (min-width: 992px) and (max-width: 1999px) {
+  /** Home page **/
+  .banner-img { /* Banner image */
+    background: url("../images/banner_1200.jpg") no-repeat;
+  }
+
+}
+
+/*** Medium devices (md) ***/
+@media  (min-width: 768px) and (max-width: 991px) {
+  /** Home page **/
+  .banner-img { /* Banner image */
+    background: url("../images/banner_992.jpg") no-repeat;
+  }
+  
+  /** Single categories page **/
+  .menu-item-tile .menu-item-price { /* Item price */
+  margin-right: 30px;
+  }
+}
+
+/*** Small devices (sm) ***/
+@media (min-width: 577px) and (max-width: 767px) {
+  /** Home page **/
+  .banner-img { /* Banner image */
+    background: url("../images/banner_768.jpg") no-repeat;
+  }
+  
+}
+
+/*** Extra small devices (xs) ***/
+@media (min-width: 365px) and (max-width: 576px) {
+  /** Home page **/
+  .navbar-brand h1 { /* Brand name */
+    font-size: calc(32px + 1vw);
+  }
+
+  #list-nav li { /* Navigation  list element */
+    font-size: 13px;
+  }
+
+  .banner-img div h2 { /* Banner heading3 */
+    font-size: calc(18px + 0.5vw);
+  }
+
+  .banner-img div h3 { /* Banner heading3*/
+    font-size: calc(19px + 1vw);
+    
+  }
+
+  .banner-img div p { /* Banner para*/
+    font-size: calc(8px + 0.5vw);
+  }
+
+  .banner-img div a { /* Banner phone */
+    font-size: 1em;
+  }
+  
+}
+
+/*** Extra extra small devices (xxs) ***/
+@media (max-width: 364px) {
+  /** Home page **/
+  .navbar-brand h1 { /* Brand name */
+    font-size: calc(18px + 1vw);
+  }
+
+  #list-nav li { /* Navigation  list element */
+    font-size: 13px;
+  }
+
+  .banner-img div h2 { /* Banner heading3 */
+    font-size: calc(16px + 0.5vw);
+  }
+
+  .banner-img div h3 { /* Banner heading3*/
+    font-size: calc(17px + 1vw);
+    
+  }
+
+  .banner-img div p { /* Banner para*/
+    font-size: calc(6px + 0.5vw);
+  }
+
+  .banner-img div a { /* Banner phone */
+    font-size: 0.75em;
+  }
+
+}
