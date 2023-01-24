@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: hsl(270deg, 50%, 75%);
+}
+
+header {
+    background-color: #8888ff;
+}
+
+header ul {
+    border: 1px solid;
+}
+
+header ul li {
+    border: 1px solid;
+}
+
+header ul li:hover {
+    background-color: burlywood;   
+}
+
+header ul li:active {
+    background-color: #8888ff;  
+}
+
+.row > div div {
+    background-color: burlywood;   
+    border: 1px solid rgb(110, 20, 120);
+}
+
+footer {
+    background-color: #8888ff;
+}
