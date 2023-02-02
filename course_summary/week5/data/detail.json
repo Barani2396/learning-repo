@@ -1,0 +1,10 @@
+{
+    "firstName": "Abi",
+    "lastName": "Kanan",
+    "school": {
+        "pg": "University of Windsor",
+        "ug": "Anna University" 
+    },
+    "country": "India",
+    "number of kids": 2
+}

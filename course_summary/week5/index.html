@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Week5 | Works</title>
+    </head>
+
+    <body>
+        <h1 style="margin-bottom: 25px">Week 5 - Course works</h1>
+        <p style="margin-bottom: 50px">Check the console too!!!</p>
+
+        <article style="margin-bottom: 50px">
+            <h2>1. Document Object Model Manipulation</h2>
+
+            <section style="margin-bottom: 10px;">
+                <span>Say hello to</span>
+                <input id="userName">
+                <button id="sayHello">Say it</button>
+            </section>
+
+            <section style="margin-bottom: 10px;">
+                <div id="greetingContent"></div>
+            </section>
+
+            <section style="margin-bottom: 10px;">
+                <div id="additionalContent1"></div>
+            </section>
+        </article>
+
+        <article id="httpRes" style="margin-bottom: 50px;">
+            <h2>2. HyperText Transfer Protocol (HTTP)</h2>
+
+            <section style="margin-bottom: 10px;">
+                <span>Prerequsite: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works">How the web works</a></span>
+            </section>
+
+            <section style="margin-bottom: 10px;">
+                <h3>URL vs URI vs URN: </h3>
+                <img src="https://danielmiessler.com/images/url-structure-and-scheme-2022.png" width="500px" height="200px">
+            </section>
+
+            <section style="margin-bottom: 10px;">
+                <h3>HTTP Methods: </h3>
+                <ul>
+                    <li>
+                        <div>Get: </div>
+                        <ul>
+                            <li>Retrives the resourse</li>
+                            <li>Data is passed to server as part of the URI i.e, /pathname/...?querystring</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div>Post: </div>
+                        <ul>
+                            <li>Sends data to server in order to be processed</li>
+                            <li>Data is sent in message body</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div>More methods, check this <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods"></a></div>
+                    </li>
+                </ul>
+            </section>
+
+            <section style="margin-bottom: 10px;">
+                <h3>HTTP response structure: </h3>
+                <img src="https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages/http_request_headers3.png" width="500px" height="250px">
+            </section>
+
+            <section style="margin-bottom: 10px;">
+                <h3>Some response code: </h3>
+                <ul>
+                    <li>200: OK</li>
+                    <li>404: Resourse not found</li>
+                    <li>403: Resourse forbidden</li>
+                    <li>500: Internal server error</li>
+                </ul>
+            </section>
+        </article>
+
+        <article id="ajaxContent" style="margin-bottom: 50px;">
+            <h2>3. Asynchronous Javascript And XML(AJAX)</h2>
+
+            <section style="margin-bottom: 10px;">
+                <p>
+                    Ajax is a set of web development techniques that uses various web technologies on 
+                    the client-side to create asynchronous web applications. With Ajax, web applications 
+                    can send and retrieve data from a server asynchronously without interfering with 
+                    the display and behaviour of the existing page.
+                </p>
+            </section>
+
+            <section style="margin-bottom: 10px;">
+                <h3>Ajax testing from a txt file</h3>
+                <button id="ajButton1">Say Hello to someone on the server!</button>
+            </section>
+
+            <section style="margin-bottom: 10px;">
+                <h2>
+                    <span id="servName1"></span>
+                    <span id="servFamilyName1"></span>
+                </h2>
+            </section>
+        </article>
+
+        <article  style="margin-bottom: 50px;">
+            <h3>4. JSON</h3>
+
+            <section style="margin-bottom: 10px;">
+                <h4>Syntax</h4>
+                <ul>
+                    <li>Subset of JS object literal syntax but</li>
+                    <ul>
+                        <li>Property name must be in double quotes</li>
+                        <li>String value must be in double quotes</li>
+                    </ul>
+                    <li>Syntax for everything else is the same</li>
+                </ul>
+                <img src="https://www.dolthub.com/blog/static/a3705b46480bbd95033414989b30941c/2bfc7/json-example.png" width="500px" height="250px">
+            </section>
+
+            <section style="margin-bottom: 10px;">
+                <h3>Ajax testing from a JSON file</h3>
+                <button id="ajButton2">From server</button>
+            </section>
+
+            <section style="margin-bottom: 10px;">
+                <div id="servDetail">
+                </div>
+            </section>
+        </article>
+
+    </body>
+
+    <script src="js/ajax-utils.js"></script>
+    <script src="js/script1.js"></script>
+    <script src="js/script2.js"></script>
+</html>
