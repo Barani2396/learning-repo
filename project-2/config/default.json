@@ -1,4 +1,0 @@
-{
-  "mongoURI": "mongodb+srv://Barani:Barani@addresskeeper.ulaoz1i.mongodb.net/?retryWrites=true&w=majority",
-  "jwtSecret": "secret"
-}
