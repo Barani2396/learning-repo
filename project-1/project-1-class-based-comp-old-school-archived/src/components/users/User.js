@@ -109,3 +109,40 @@ User.prototype = {
 };
 
 export default User;
+
+/*
+
+In React Router version 6, the withRouter HOC has been removed, and you can use the useParams 
+hook directly within a function component to access the route params.
+
+If you are using a class component and need to access the route params, you can use the useParams 
+hook in a wrapper function component and then pass the params as props to your class component.
+
+Here's how you can do it:
+
+1. Create a wrapper function component that uses the useParams hook to get the route params.
+2. Pass the route params as props to your class component.
+3. Access the params in your class component through this.props.
+
+  import React, { Component } from 'react';
+  import { useParams } from 'react-router-dom';
+
+  class UserClass extends Component {
+    componentDidMount() {
+      console.log('Check');
+      console.log(this.props.login);
+      //this.props.getUsers(this.props.match.params.login)
+    }
+    render() {
+      return <div>User</div>;
+    }
+  }
+
+  const User = () => {
+    const params = useParams();
+
+    return <UserClass {...params} />;
+  };
+
+  export default User;
+*/
