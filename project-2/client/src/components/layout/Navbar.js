@@ -1,21 +1,52 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
+import AuthContext from '../../context/auth/authContext';
+import ContactContext from '../../context/contact/contactContext';
+
 const Navbar = ({ title, icon }) => {
+  const authContext = useContext(AuthContext);
+  const contactContext = useContext(ContactContext);
+
+  const { isAuthenticated, logout, user } = authContext;
+  const { clearContacts } = contactContext;
+
+  // On logout
+  const onLogout = () => {
+    logout();
+    clearContacts();
+  };
+
+  const authLinks = (
+    <>
+      <li>Hello {user && user.name}</li>
+      <li>
+        <a href='#!' onClick={onLogout}>
+          <i className='fas fa-sign-out-alt'></i>
+          <span className='hide-sm'>Logout</span>
+        </a>
+      </li>
+    </>
+  );
+
+  const guestLinks = (
+    <>
+      <li>
+        <Link to='/register'>Register</Link>
+      </li>
+      <li>
+        <Link to='/login'>Login</Link>
+      </li>
+    </>
+  );
+
   return (
     <nav className='navbar bg-primary'>
       <h1>
         <i className={icon}></i> {title}
       </h1>
-      <ul>
-        <li>
-          <Link to='/'>Home</Link>
-        </li>
-        <li>
-          <Link to='/About'>About</Link>
-        </li>
-      </ul>
+      <ul>{isAuthenticated ? authLinks : guestLinks}</ul>
     </nav>
   );
 };
