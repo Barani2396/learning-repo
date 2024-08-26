@@ -1,0 +1,15 @@
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RateOfSubscription/obj/Debug/net8.0/RateOfSubscription.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RateOfSubscription/obj/Debug/net8.0/RateOfSubscription.AssemblyInfoInputs.cache
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RateOfSubscription/obj/Debug/net8.0/RateOfSubscription.AssemblyInfo.cs
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RateOfSubscription/obj/Debug/net8.0/RateOfSubscription.csproj.CoreCompileInputs.cache
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RateOfSubscription/obj/Debug/net8.0/RateOfSubscription.sourcelink.json
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RateOfSubscription/bin/Debug/net8.0/RateOfSubscription
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RateOfSubscription/bin/Debug/net8.0/RateOfSubscription.deps.json
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RateOfSubscription/bin/Debug/net8.0/RateOfSubscription.runtimeconfig.json
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RateOfSubscription/bin/Debug/net8.0/RateOfSubscription.dll
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RateOfSubscription/bin/Debug/net8.0/RateOfSubscription.pdb
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RateOfSubscription/obj/Debug/net8.0/RateOfSubscription.dll
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RateOfSubscription/obj/Debug/net8.0/refint/RateOfSubscription.dll
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RateOfSubscription/obj/Debug/net8.0/RateOfSubscription.pdb
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RateOfSubscription/obj/Debug/net8.0/RateOfSubscription.genruntimeconfig.cache
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RateOfSubscription/obj/Debug/net8.0/ref/RateOfSubscription.dll

@@ -1,0 +1,15 @@
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject1/obj/Debug/net8.0/CodeProject1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject1/obj/Debug/net8.0/CodeProject1.AssemblyInfoInputs.cache
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject1/obj/Debug/net8.0/CodeProject1.AssemblyInfo.cs
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject1/obj/Debug/net8.0/CodeProject1.csproj.CoreCompileInputs.cache
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject1/obj/Debug/net8.0/CodeProject1.sourcelink.json
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject1/bin/Debug/net8.0/CodeProject1
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject1/bin/Debug/net8.0/CodeProject1.deps.json
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject1/bin/Debug/net8.0/CodeProject1.runtimeconfig.json
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject1/bin/Debug/net8.0/CodeProject1.dll
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject1/bin/Debug/net8.0/CodeProject1.pdb
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject1/obj/Debug/net8.0/CodeProject1.dll
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject1/obj/Debug/net8.0/refint/CodeProject1.dll
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject1/obj/Debug/net8.0/CodeProject1.pdb
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject1/obj/Debug/net8.0/CodeProject1.genruntimeconfig.cache
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject1/obj/Debug/net8.0/ref/CodeProject1.dll

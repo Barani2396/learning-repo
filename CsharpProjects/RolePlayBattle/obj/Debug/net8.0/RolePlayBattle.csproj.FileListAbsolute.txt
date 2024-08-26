@@ -1,0 +1,15 @@
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RolePlayBattle/obj/Debug/net8.0/RolePlayBattle.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RolePlayBattle/obj/Debug/net8.0/RolePlayBattle.AssemblyInfoInputs.cache
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RolePlayBattle/obj/Debug/net8.0/RolePlayBattle.AssemblyInfo.cs
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RolePlayBattle/obj/Debug/net8.0/RolePlayBattle.csproj.CoreCompileInputs.cache
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RolePlayBattle/obj/Debug/net8.0/RolePlayBattle.sourcelink.json
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RolePlayBattle/bin/Debug/net8.0/RolePlayBattle
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RolePlayBattle/bin/Debug/net8.0/RolePlayBattle.deps.json
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RolePlayBattle/bin/Debug/net8.0/RolePlayBattle.runtimeconfig.json
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RolePlayBattle/bin/Debug/net8.0/RolePlayBattle.dll
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RolePlayBattle/bin/Debug/net8.0/RolePlayBattle.pdb
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RolePlayBattle/obj/Debug/net8.0/RolePlayBattle.dll
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RolePlayBattle/obj/Debug/net8.0/refint/RolePlayBattle.dll
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RolePlayBattle/obj/Debug/net8.0/RolePlayBattle.pdb
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RolePlayBattle/obj/Debug/net8.0/RolePlayBattle.genruntimeconfig.cache
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/RolePlayBattle/obj/Debug/net8.0/ref/RolePlayBattle.dll

@@ -1,0 +1,15 @@
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/TestProject/bin/Debug/net8.0/TestProject
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/TestProject/bin/Debug/net8.0/TestProject.deps.json
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/TestProject/bin/Debug/net8.0/TestProject.runtimeconfig.json
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/TestProject/bin/Debug/net8.0/TestProject.dll
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/TestProject/bin/Debug/net8.0/TestProject.pdb
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.AssemblyInfoInputs.cache
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.AssemblyInfo.cs
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.csproj.CoreCompileInputs.cache
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.sourcelink.json
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.dll
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/TestProject/obj/Debug/net8.0/refint/TestProject.dll
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.pdb
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/TestProject/obj/Debug/net8.0/TestProject.genruntimeconfig.cache
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/TestProject/obj/Debug/net8.0/ref/TestProject.dll

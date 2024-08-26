@@ -1,0 +1,15 @@
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/FrauduntalOrderIDs/bin/Debug/net8.0/FrauduntalOrderIDs
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/FrauduntalOrderIDs/bin/Debug/net8.0/FrauduntalOrderIDs.deps.json
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/FrauduntalOrderIDs/bin/Debug/net8.0/FrauduntalOrderIDs.runtimeconfig.json
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/FrauduntalOrderIDs/bin/Debug/net8.0/FrauduntalOrderIDs.dll
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/FrauduntalOrderIDs/bin/Debug/net8.0/FrauduntalOrderIDs.pdb
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/FrauduntalOrderIDs/obj/Debug/net8.0/FrauduntalOrderIDs.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/FrauduntalOrderIDs/obj/Debug/net8.0/FrauduntalOrderIDs.AssemblyInfoInputs.cache
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/FrauduntalOrderIDs/obj/Debug/net8.0/FrauduntalOrderIDs.AssemblyInfo.cs
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/FrauduntalOrderIDs/obj/Debug/net8.0/FrauduntalOrderIDs.csproj.CoreCompileInputs.cache
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/FrauduntalOrderIDs/obj/Debug/net8.0/FrauduntalOrderIDs.sourcelink.json
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/FrauduntalOrderIDs/obj/Debug/net8.0/FrauduntalOrderIDs.dll
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/FrauduntalOrderIDs/obj/Debug/net8.0/refint/FrauduntalOrderIDs.dll
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/FrauduntalOrderIDs/obj/Debug/net8.0/FrauduntalOrderIDs.pdb
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/FrauduntalOrderIDs/obj/Debug/net8.0/FrauduntalOrderIDs.genruntimeconfig.cache
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/FrauduntalOrderIDs/obj/Debug/net8.0/ref/FrauduntalOrderIDs.dll

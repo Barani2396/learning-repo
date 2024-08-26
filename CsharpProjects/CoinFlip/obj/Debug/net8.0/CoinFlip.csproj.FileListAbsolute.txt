@@ -1,0 +1,15 @@
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CoinFlip/bin/Debug/net8.0/CoinFlip
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CoinFlip/bin/Debug/net8.0/CoinFlip.deps.json
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CoinFlip/bin/Debug/net8.0/CoinFlip.runtimeconfig.json
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CoinFlip/bin/Debug/net8.0/CoinFlip.dll
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CoinFlip/bin/Debug/net8.0/CoinFlip.pdb
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CoinFlip/obj/Debug/net8.0/CoinFlip.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CoinFlip/obj/Debug/net8.0/CoinFlip.AssemblyInfoInputs.cache
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CoinFlip/obj/Debug/net8.0/CoinFlip.AssemblyInfo.cs
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CoinFlip/obj/Debug/net8.0/CoinFlip.csproj.CoreCompileInputs.cache
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CoinFlip/obj/Debug/net8.0/CoinFlip.sourcelink.json
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CoinFlip/obj/Debug/net8.0/CoinFlip.dll
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CoinFlip/obj/Debug/net8.0/refint/CoinFlip.dll
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CoinFlip/obj/Debug/net8.0/CoinFlip.pdb
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CoinFlip/obj/Debug/net8.0/CoinFlip.genruntimeconfig.cache
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CoinFlip/obj/Debug/net8.0/ref/CoinFlip.dll

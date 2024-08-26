@@ -1,0 +1,15 @@
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject3/bin/Debug/net8.0/CodeProject3
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject3/bin/Debug/net8.0/CodeProject3.deps.json
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject3/bin/Debug/net8.0/CodeProject3.runtimeconfig.json
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject3/bin/Debug/net8.0/CodeProject3.dll
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject3/bin/Debug/net8.0/CodeProject3.pdb
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject3/obj/Debug/net8.0/CodeProject3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject3/obj/Debug/net8.0/CodeProject3.AssemblyInfoInputs.cache
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject3/obj/Debug/net8.0/CodeProject3.AssemblyInfo.cs
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject3/obj/Debug/net8.0/CodeProject3.csproj.CoreCompileInputs.cache
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject3/obj/Debug/net8.0/CodeProject3.sourcelink.json
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject3/obj/Debug/net8.0/CodeProject3.dll
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject3/obj/Debug/net8.0/refint/CodeProject3.dll
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject3/obj/Debug/net8.0/CodeProject3.pdb
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject3/obj/Debug/net8.0/CodeProject3.genruntimeconfig.cache
+/Users/bpasupathi/Developer/GIT/learning-repo/CsharpProjects/CodeProject3/obj/Debug/net8.0/ref/CodeProject3.dll
