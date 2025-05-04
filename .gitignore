@@ -1,1 +1,6 @@
-.gitattributes
+# Visual studio
+.vscode/
+.vs/
+
+#Misc
+.DS_Store
