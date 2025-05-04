@@ -4,24 +4,18 @@ int periodLocation = 0;
 for (int i = 0; i < myStrings.Length; i++)
 {
     string myString = myStrings[i];
-    int pos = myString.IndexOf(".");
-    if (pos > -1)
+    periodLocation = myStrings[i].IndexOf(".");
+
+    string mySentence;
+
+    while (periodLocation != -1)
     {
-        while (myString != "")
-        {
-            Console.WriteLine(myString.Substring(0, pos));
-            myString = myString.Remove(0, pos + 1);
-            myString = myString.TrimStart(' ');
-            pos = myString.IndexOf(".");
-            if (pos == -1)
-            {
-                Console.WriteLine(myString);
-                myString = "";
-            }
-        }
+        mySentence = myString.Substring(0, periodLocation);
+        myString = myString.Remove(0, periodLocation + 1).TrimStart();
+        periodLocation = myString.IndexOf(".");
+        Console.WriteLine(mySentence);
     }
-    else
-    {
-        Console.WriteLine(myString);
-    }
+
+    mySentence = myString.Trim();
+    Console.WriteLine(mySentence);
 }

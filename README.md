@@ -1,6 +1,9 @@
-# Learning-Repo
- Online-Learning-Works
+### Online Learning Platform: freeCodeCamp
 
-## Description
-All of my works related to e-learning is being updated in this repository under different branch names. Mainly, the courses which I take from different learning platforms are segregated here with appropriate notes, assignments and projects. This repo is created solely for educational purpose and, individuals can benefit from this content. I also use this repo as an archive to record all of my learning works.
+### Course Name: Foundational C# with Microsoft Certification
 
+### Course Link: [Link](https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/)
+
+### Course Certificate: [Link](https://www.freecodecamp.org/certification/Barani2396/foundational-c-sharp-with-microsoft)
+
+![Certificate](https://raw.githubusercontent.com/Barani2396/Learning-Repo/freeCodeCamp-Foundational-C-Sharp-with-Microsoft/certificate/certificate.jpg)
