@@ -1,2 +1,6 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Visual studio
+.vscode/
+.vs/
+
+#Misc
+.DS_Store
